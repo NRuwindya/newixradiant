@@ -1,0 +1,99 @@
+.uiux_frontend_section {
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, #060606, #060606, #151515, #02002d, #040048);
+}
+
+.uiux_frontend_content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.uiux_frontend_content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.uiux_frontend_content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.uiux_frontend_content h3 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.uiux_frontend_content ul {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.uiux_frontend_content ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.uiux_frontend_content ul li strong {
+    color: #007bff;
+}
+
+/* Projects Section Styles */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .project-card {
+    color: white;
+    background-color: #373a5681;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .project-card h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }

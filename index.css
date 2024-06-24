@@ -1,4 +1,5 @@
-.main-banner, header {
+.main-banner,
+header {
     background-image: url('assets/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +26,7 @@
 .cta-button {
     padding: 10px 20px;
     border-color: rgba(17, 0, 255, 0.461);
-    border-style:double;
+    border-style: double;
     border-radius: 5px;
     color: white;
     text-decoration: none;
@@ -44,7 +45,7 @@
 }
 
 .banner_links a {
-    background: linear-gradient(to left,  #0057b3d0,  #0057b326,  #0057b311);
+    background: linear-gradient(to left, #0057b3d0, #0057b326, #0057b311);
     color: rgb(255, 255, 255);
     padding: 10px 20px;
     text-decoration: none;
@@ -65,7 +66,7 @@
 .features h2 {
     font-size: 1.5em;
     margin-bottom: 30px;
-    color: #ffffff; /* Darker color for better readability */
+    color: #ffffff;
 }
 
 .features-container {
@@ -93,14 +94,15 @@
 .feature h3 {
     color: rgb(232, 232, 232);
     margin-bottom: 10px;
- }
+}
 
 .feature p {
     color: #b6b6b6;
 }
 
 .feature:hover {
-    transform: translateY(-10px); /* Lift up effect on hover */
+    transform: translateY(-10px);
+    /* Lift up effect on hover */
 }
 
 /* Vision and Mission Section Styles */
@@ -130,7 +132,8 @@
     text-align: center;
 }
 
-.vision_mission .vision, .vision_mission .mission {
+.vision_mission .vision,
+.vision_mission .mission {
     border-radius: 20px 20px 0px 20px;
     margin: 20px;
     width: 400px;
@@ -140,7 +143,8 @@
     padding: 20px;
 }
 
-.vision_mission .vision:hover, .vision_mission .mission:hover {
+.vision_mission .vision:hover,
+.vision_mission .mission:hover {
     transform: scale(1.05);
 }
 
@@ -193,7 +197,7 @@
     overflow: hidden;
     width: 250px;
     background: linear-gradient(to right, #0b0a1c54, #060606, #060606, #151515, #121212);
-    
+
 }
 
 .service::before {

@@ -1,0 +1,42 @@
+/* About Section */
+.about_section {
+    background-image: url('assets/about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about_content {
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    transition: transform 0.3s ease;
+  }
+  
+  .about_content:hover {
+    transform: scale(1.05);
+  }
+  
+  .about_content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about_content p {
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .about_content {
+      padding: 20px;
+    }
+  }
